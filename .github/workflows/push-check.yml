@@ -11,7 +11,7 @@ jobs:
       - name: typos-action
         uses: crate-ci/typos@v1.14.3
   format:
-    runs-on: [ self-hosted, X64 ]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
   
